@@ -1,8 +1,6 @@
 Linkify
 =======
 
-[![Build Status](https://secure.travis-ci.org/Nahid-service-development/php-linkify.png)](http://travis-ci.org/Nahid-service-development/php-linkify)
-
 This a Linkify Laravel 5 supported package.
 Its converts URLs and email addresses into clickable links. It works on both snippets of HTML (or plain text) and complete HTML pages.
 
@@ -13,7 +11,8 @@ It does not cover every possible valid-yet-never-used URLs and email addresses i
 Authors
 -------
 
-* Chris Wilkinson <chris.wilkinson@admin.cam.ac.uk>
+* Main Author : Chris Wilkinson <chris.wilkinson@admin.cam.ac.uk>
+* Laravel Support : Nahid Bin Azhar <nahid.dns@gmail.com>
 
 It uses regex based on John Gruber's [Improved Liberal, Accurate Regex Pattern for Matching URLs](http://daringfireball.net/2010/07/improved_regex_for_matching_urls).
 
