@@ -34,6 +34,22 @@ Installation
  2. Use Composer to download and install Linkify:
 
         $ php composer.phar update Nahid/linkify
+ 3. open `config/app.php` and in providers array add this line
+    ```php
+    Nahid\Linkify\LinkifyServiceProvider::class,
+    ```
+
+    and in aliases array add this line too
+
+    ```php
+    Nahid\Linkify\Facades\Linkify::class,
+    ```
+
+ 4. Open terminal and goto your project and run this command 
+ 
+    ```
+    composer dump-autoload
+    ``
 
 Usage
 -----
