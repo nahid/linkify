@@ -46,7 +46,7 @@ Installation
     ```
 
  4. Open terminal and goto your project and run this command 
- 
+
     ```
     composer dump-autoload
     ``
@@ -54,10 +54,9 @@ Installation
 Usage
 -----
 
-        $linkify = new \Nahid\Linkify\Linkify();
         $text = 'This is my text containing a link to www.example.com.';
 
-        echo $linkify->process($text);
+        echo Linkify::process($text);
 
 Will output:
 
