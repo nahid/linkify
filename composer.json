@@ -1,5 +1,5 @@
 {
-    "name": "Nahid/linkify",
+    "name": "nahid/linkify",
     "type": "library",
     "description": "Converts URLs and email addresses in text into HTML links its extended from Misd\\Linify its also support laravel 5",
     "keywords": ["url", "email address", "convert", "link", "laravel 5", "laravel"],
