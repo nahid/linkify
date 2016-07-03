@@ -42,14 +42,14 @@ Installation
     and in aliases array add this line too
 
     ```php
-    Nahid\Linkify\Facades\Linkify::class,
+    'Linkify' => Nahid\Linkify\Facades\Linkify::class,
     ```
 
  4. Open terminal and goto your project and run this command 
 
     ```
     composer dump-autoload
-    ``
+    ```
 
 Usage
 -----
